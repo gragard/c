@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+body {
+background-color: #f8e1cf;
+color: #0f141e;
+font-size: 16px;
+font-weight: normal;
+font-family: 'Roboto', sans-serif;                                           
+/* font: normal 16px 'roboto',sans-serif; */
+background: linear-gradient(135deg, #FAF0E6 0%, #FFE5D0 100%);
+margin: 0;
+padding: 0;
+}
+a {
+  color: black; 
+text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+}
+
+
+
+ .avatar{
+    width: 200px;
+    border-radius: 20%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0)
+
+ }
+ .info p {
+    color: #86898f;
+    margin: 0;
+    font-style: bold;
+    text-decoration: none;
+    
+ img {
+  max-width: 100%;
+  height: auto;
+}
+
+ }
+ .container {
+    max-width: 100%;
+    margin: 0 15px;
+ }
+ .social {
+  width: 100%;
+  background-color: #e4af84; /* персиковый блок */
+  color: black; /* текст черным */
+  padding: 5px;
+  border-radius: 20px; /* скругленные углы */
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+.social:hover {
+   background-color: #C28B5C;  /* темнее при наведении */
+}
+ .h {
+    margin-left: -20px;
+ }
+  .table {
+   width: 100%;
+   background-color: #e4af84;
+   color: black;
+   padding: 4px;
+   border-radius: 20px;
+   transition: background-color 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  overflow: hidden;  /* убирает выходящие за пределы блока линии от табицы */
+}
+  
+.table:hover {
+background-color: #C28B5C;
+}
+.table th,
+.table td {
+  border: 1px solid #C28B5C;  /* тонкие стенки персикового цвета */
+  padding: 12px;               /* отступы внутри ячеек */
+
+}
+/* контейнер для иконок (чтобы были в ряд) */
+.social-icons {
+  display: flex;              /* иконки в одну линию */
+  gap: 20px;                  /* расстояние между иконками */
+  margin-top: 15px;           /* отступ сверху */
+ margin-left: 20px;
+}
+
+/* КОММЕНТ: сами иконки (это ссылки) */
+.social-icons a {
+  color: #B85C4B;             /* цвет иконок (терракотовый) */
+  font-size: 40px;            /* размер иконок */
+  transition: all 0.3s ease;  /* плавные изменения */
+}
+
+/* КОММЕНТ: эффект при наведении мышки */
+.social-icons a:hover {
+  color: #202020;             /* цвет меняется на более тёплый */
+  transform: scale(1.1);       /* иконка чуть увеличивается */
+}
